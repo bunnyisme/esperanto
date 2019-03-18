@@ -1,0 +1,101 @@
+:root {
+  --green: #1abc9c;
+  --green-dark: #16a085;
+  --blue: #3498db;
+  --blue-dark: #2980b9;
+  --nubo: #ecf0f1;
+  --argxenta: #bdc3c7;
+  --primary: var(--green);
+  --primary-dark: var(--green-dark);
+  --secondary: var(--blue);
+  --secondary-dark: var(--blue-dark);
+  --dark: #2c3e50;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  padding-top: 0.2rem;
+  padding-bottom: 0.27rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn-primary {
+  color: white !important;
+  background-color: var(--primary);
+  border-color: var(--primary);
+  --depth-color: var(--primary-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-dark);
+  border-color: var(--secondary-dark);
+}
+
+.btn-outline-secondary {
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-depth {
+  border-width: 0px;
+  border-bottom: 3px solid var(--depth-color);
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark) !important;
+}
+
+.nav-link {
+  margin: 0.6rem;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #00000000;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #00000000;
+}
+
+.form-control {
+  border: none;
+}
+
+.card {
+  background-color: var(--primary);
+  border: none;
+}
+
+code {
+  color: #9b59b6;
+}
